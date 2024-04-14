@@ -1,0 +1,12 @@
+{
+    "name": "elcot/securin",
+    "description": "A PHP project to fetch and store CVE data from the NVD API",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Elcot\\Securin\\": "src/"
+        }
+    }
+}
